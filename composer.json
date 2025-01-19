@@ -1,0 +1,21 @@
+{
+    "name": "blazl/bladetw",
+    "description": "FootMATE Theme",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "BT\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BlazL",
+            "email": "blaz@tuta.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/view": "^10.15",
+        "illuminate/support": "^10.15"
+    }
+}
