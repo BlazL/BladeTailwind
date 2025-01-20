@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('content')
-  <main class="app__content">
+  <main>
     <h1>
       {!! the_title() !!}
     </h1>

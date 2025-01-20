@@ -5,5 +5,5 @@
 @extends('base')
 
 @section('content')
-    <h1 class="text-3xl">TEST 1234</h1>
+    <h1 class="text-3xl">Custom template page</h1>
 @endsection

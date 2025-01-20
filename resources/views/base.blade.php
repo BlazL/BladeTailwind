@@ -11,8 +11,7 @@
     {!! do_action('wp_body_open') !!}
     {!! do_action('get_header') !!}
 
-    <div class="app">
-      test
+    <div>
       @section('header')
         @include('partials.header')
       @show
