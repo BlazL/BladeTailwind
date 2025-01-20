@@ -19,46 +19,6 @@ A WordPress starter theme using **BladePHP**, **TailwindCSS**, and **Vite.js**, 
 
 ---
 
-## Folder Structure
-
-```plaintext
-blade-tailwind-vite-theme/
-├── app/                        # Core theme logic
-│   ├── App.php                 # Theme initialization logic
-│   ├── Core/                   # Core utilities and hooks
-│   │   ├── Config.php          # Configuration management
-│   │   ├── Hooks.php           # WordPress hooks
-│   │   └── Widgets.php         # Widgets registration
-│   ├── Integrations/           # WordPress integrations
-│   │   ├── Integrations.php    # External services and APIs
-│   │   └── WordpressRSS.php    # RSS feed handling
-│   ├── Posts/                  # Custom post type logic
-│   │   └── Posts.php           # Post-related logic
-│   └── Templates/              # Blade template handlers
-│       ├── Provider.php        # Template provider logic
-│       ├── Resolver.php        # Template resolution logic
-│       └── Templates.php       # Template utilities
-├── dist/                       # Compiled assets (Vite.js output)
-├── inc/                        # PHP includes
-│   ├── bootstrap.php           # Theme bootstrap file
-│   └── inc.vite.php            # Vite.js integration for assets
-├── resources/                  # Theme resources
-│   ├── css/                    # TailwindCSS files
-│   ├── img/                    # Image assets
-│   ├── js/                     # JavaScript logic
-│   └── views/                  # Blade view templates
-├── functions.php               # WordPress functions
-├── index.php                   # Theme index file
-├── LICENSE                     # License file
-├── main.js                     # JavaScript entry point
-├── package.json                # Node.js dependencies
-├── composer.json               # PHP dependencies
-├── postcss.config.js           # PostCSS configuration
-└── vite.config.js              # Vite configuration
-```
-
----
-
 ## Installation
 
 ### 1. Prerequisites

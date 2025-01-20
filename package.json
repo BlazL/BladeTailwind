@@ -1,6 +1,6 @@
 {
-  "name": "vite-tailwind-boilerplate",
-  "version": "0.1.0",
+  "name": "bladetailwind",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development vite",

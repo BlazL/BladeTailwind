@@ -1,9 +1,7 @@
-@extends('layout')
+@extends('base')
 
 @section('sidebar')
-    <sidebar class="flex mt-8">
-        <div class="space-y-4">
-            {!! do_action('get_sidebar') !!}
-        </div>
-    </sidebar>
+  <sidebar class="bg-red-400">
+    {!! do_action('get_sidebar') !!}
+  </sidebar>
 @endsection

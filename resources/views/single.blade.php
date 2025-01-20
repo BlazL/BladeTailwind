@@ -1,8 +1,8 @@
-@extends('layout')
+@extends('base')
 
 @section('content')
-  <main>
-    <h1 class="font-semibold">
+  <main class="app__content">
+    <h1>
       {!! the_title() !!}
     </h1>
 

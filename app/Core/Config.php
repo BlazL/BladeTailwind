@@ -9,27 +9,16 @@
         public function __construct()
         {
             $this->config = [
-                'version' => BT_VERSION,
-                'path' => BT_PATH,
-                'uri' => BT_URI,
-                'cache' => [
-                    'path' => wp_upload_dir()['basedir'] . '/cache/fm',
-                ],
+                'version' => wp_get_environment_type() === 'development' ? time() : BT_VERSION,
                 'env' => [
                     'type' => wp_get_environment_type(),
                     'mode' => false === strpos(BT_PATH, ABSPATH . 'wp-content/plugins') ? 'theme' : 'plugin',
                 ],
-                'images' => [
-                    'path' => BT_PATH . '/resources/images',
-                    'uri' => BT_URI . '/resources/images',
+                'cache' => [
+                    'path' => wp_upload_dir()['basedir'] . '/cache/bt',
                 ],
-                'styles' => [
-                    'path' => BT_PATH . '/resources/styles',
-                    'uri' => BT_URI . '/resources/images',
-                ],
-                'scripts' => [
-                    'path' => BT_PATH . '/resources/scripts',
-                    'uri' => BT_URI . '/resources/images',
+                'resources' => [
+                    'path' => BT_PATH . '/resources',
                 ],
                 'views' => [
                     'path' => BT_PATH . '/resources/views',

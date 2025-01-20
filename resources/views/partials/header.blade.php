@@ -1,5 +1,7 @@
-<header class="max-w-7xl  mx-auto py-5">
-    <h3>
+<header>
+    <img src="" />
+    
+    <h3 class="text-3xl">
         {{ get_bloginfo('name') }}
     </h3>
 </header>

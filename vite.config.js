@@ -21,14 +21,17 @@ export default defineConfig({
 
   plugins: [
     //vue(),
-    liveReload(__dirname+'/**/*.php')
+    liveReload([
+      __dirname + '/**/*.php',
+      __dirname + '/resources/views/**/*.blade.php',
+    ])
   ],
 
   // config
   root: '',
   base: process.env.NODE_ENV === 'development'
-    ? '/'
-    : '/dist/',
+      ? '/'
+      : '/dist/',
 
   build: {
     // output dir for production build
@@ -46,7 +49,7 @@ export default defineConfig({
       input: {
         main: resolve( __dirname + '/main.js')
       },
-      
+
       /*
       output: {
           entryFileNames: `[name].js`,
@@ -90,7 +93,7 @@ export default defineConfig({
       host: 'localhost',
       //port: 443
     },
-    
+
   },
 
   // required for in-browser template compilation
@@ -101,4 +104,3 @@ export default defineConfig({
     }
   }
 })
-

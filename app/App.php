@@ -7,6 +7,7 @@
     use BT\Core\Widgets;
     use BT\Integrations\Integrations;
     use BT\Posts\Posts;
+    use BT\Teams\Teams;
     use BT\Templates\Templates;
     use Illuminate\Filesystem\Filesystem;
 
