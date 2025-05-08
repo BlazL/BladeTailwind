@@ -4,7 +4,7 @@ A WordPress starter theme using **BladePHP**, **TailwindCSS**, and **Vite.js**, 
 
 ---
 
-![Theme Screenshot](https://raw.githubusercontent.com/BlazL/BladeTailwind/refs/heads/main/screenshot.png)
+![Theme Screenshot](https://raw.githubusercontent.com/BlazL/BladeTailwind/refs/heads/main/resources/screenshot.png)
 
 ---
 
